@@ -55,6 +55,7 @@ section button {
 }
 
 section button:hover{
+    background-color: var(--color-btn-hover);
     opacity: 0.9;
     transition: 0.3s ease-in-out;
 }
