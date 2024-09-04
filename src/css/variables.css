@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 :root{
-    --color-texto-geral: #f3f3f3;
+    --color-texto-geral: #fff2f2;
+    --color-texto-principal: #45474B;
+    --color-texto-links: #30475E;
+    --color-icones: #d9531e;
 
-    --color-btn: #fc8d51;
-    --color-btn-hover: #d9531e;
+    --color-btn: #22007e;
+    --color-btn-hover: #e01111;
 }

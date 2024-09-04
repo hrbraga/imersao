@@ -1,6 +1,7 @@
 html{
-    background: url(../images/pexels-leonardo-vazquez-1427877-2807963.jpg) no-repeat;
+    background: url(../images/tour3.avif) no-repeat;
     background-size: cover;
+    font-size: 62.5%;
 }
 
 /* Estiliza o corpo da página */
@@ -17,10 +18,11 @@ body {
 
 /* Estiliza os títulos h1 */
 h1 {
-    font-size: 2.5rem; /* Tamanho da fonte */
+    font-size: 4rem; /* Tamanho da fonte */
     color:  var(--color-texto-geral); /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
+    text-shadow: 2px 2px 4px #888; 
 }
 
 /* Estiliza as seções da página */
@@ -33,24 +35,25 @@ section {
 
 /* Estiliza os inputs dentro das seções */
 section input {
-    width: 30rem; /* Largura dos inputs */
+    width: 50rem; /* Largura dos inputs */
     border: none; /* Remove a borda padrão */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 1.5rem; /* Borda arredondada */
     margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
-    color: #45474B; /* Cor do texto */
-    font-size: 1rem; /* Tamanho da fonte */
+    color: var(--color-texto-principal); /* Cor do texto */
+    font-size: 3rem; /* Tamanho da fonte */
+    text-align: center;
     box-sizing: border-box; /* Inclui padding e border na largura total */
 }
 
 /* Estiliza os botões dentro das seções */
 section button {
-    padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
+    padding: 1.6rem 3rem; /* Espaçamento interno do botão */
     border: none; /* Remove a borda padrão */
     border-radius: 1.5rem; /* Borda arredondada */
     background-color: var(--color-btn); /* Cor de fundo do botão */
     color: var(--color-texto-geral); /* Cor do texto do botão */
-    font-size: 1rem; /* Tamanho da fonte */
+    font-size: 2rem; /* Tamanho da fonte */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
 }
 
@@ -60,6 +63,13 @@ section button:hover{
     transition: 0.3s ease-in-out;
 }
 
+header h1 .tour{
+    color: rgb(10, 10, 151);
+}
+
+header h1 .france{
+    color: rgb(236, 13, 13);
+}
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
     width: 60rem; /* Largura máxima da caixa de resultados */
@@ -73,16 +83,55 @@ section button:hover{
 /* Estiliza cada item de resultado */
 .item-resultado {
     background: var(--color-texto-geral); /* Cor de fundo dos itens */
+    width: 50rem; 
     border-radius: 0.6rem; /* Borda arredondada */
-    padding: 1rem; /* Espaçamento interno */
-    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    padding: 2rem; /* Espaçamento interno */
+    margin-bottom: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-resultado .ano-prova {
+    font-size: 2.4rem; /* Tamanho da fonte */
+    font-weight: 500;
+    margin: 0;
+    color: #e01111; /* Cor do texto */
 }
 
-/* Estiliza os títulos dentro dos itens de resultado */
-.item-resultado h2 {
-    font-size: 1.5rem; /* Tamanho da fonte */
-    color: var(--color-texto-geral); /* Cor do texto */
+.item-resultado .nome-ciclista {
+    font-size: 4rem; /* Tamanho da fonte */
+    font-weight: 700;
+    margin: 0;
+    color: var(--color-texto-principal); /* Cor do texto */
+    text-transform: uppercase;
+}
+
+.item-resultado .pais-ciclista {
+    font-size: 3rem; /* Tamanho da fonte */
+    font-weight: 500;
+    margin: 0;
+    color: var(--color-texto-principal); /* Cor do texto */
+}
+
+.prova  {
+    display: flex;
+    text-align: center;
+    font-size: 2.4rem; /* Tamanho da fonte */
+    font-weight: 500;
+    color: var(--color-texto-principal); /* Cor do texto */
+    gap: 2rem;
+    margin-top: 20px;
+}
+
+.prova .tempo-prova, .distancia-prova {
+    margin: 0;
+}
+
+.item-resultado .prova .icone {
+    color: #22007e;
 }
 
 footer {
@@ -96,4 +145,5 @@ footer {
 
 footer p{
     color: var(--color-texto-geral);
+    font-size: 1.6rem;
 }
