@@ -1,10 +1,20 @@
-function pesquisar(){
+function pesquisar() {
     let section = document.getElementById("resultados-pesquisa");
 
-    let resultados = "";
+    let campoPesquisa = document.getElementById("campo-pesquisa").value;
+
+    if (campoPesquisa == "") {
+        alert("Digite um ano para pesquisa.")
+        return
+    }
     
-    for (let dado of ano) {
-        resultados += `
+    if (campoPesquisa >= 1903 && campoPesquisa <= 2024) {
+        let resultados = "";
+
+        for (let dado of ano) {
+
+            if (dado.ano.includes(campoPesquisa)) {
+                resultados += `
         <div class="item-resultado">
                 <p class="ano-prova">${dado.ano}</p>
                 <p class="nome-ciclista">${dado.ciclista}</p>
@@ -15,7 +25,11 @@ function pesquisar(){
            </div>
         </div>
     `
+            }
+        }
+        section.innerHTML = resultados
+    } else {
+        alert("Não há provas registradas para o ano informado.");
     }
-    
-    section.innerHTML = resultados
 }
+
