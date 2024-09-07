@@ -36,3 +36,18 @@ Se você é um ciclista apaixonado ou um desenvolvedor que quer dar uma pedalada
 Se você quiser adicionar mais dados ou melhorar a interface, pode editar o arquivo `dados.js`.
 
 **Vamos juntos celebrar a história do ciclismo!** 
+
+
+## 🚀 Sobre mim
+Sou Hugo Roberto, desenvolvedor front-end em formação, com foco em HTML, CSS, JavaScript, React e NodeJS. Apaixonado por criar interfaces funcionais e aprender novas tecnologias, busco sempre entregar projetos de alta qualidade.
+
+Tenho conhecimentos em Git e GitHub, o que me ajuda a manter um fluxo de trabalho organizado e colaborativo. Estou constantemente aprimorando minhas habilidades para me manter atualizado no mercado. 😁
+
+Além do desenvolvimento, sou entusiasta do ciclismo, uma atividade que reflete meu compromisso com disciplina e foco. Estou sempre em busca de novos desafios e oportunidades para crescer profissionalmente. 🚴‍♀️💜💻
+
+## Aprendizados
+* Desenvolvimento da função pesquisar no projeto utilizando o javaScript.
+* Criaçao de objetos no javaScript.
+* Entendimento da lógica do javaScript.
+* Uso da IA Gemini para contribuir na solução de desafios do projeto.
+
