@@ -1,10 +1,10 @@
-### **Campeões do Tour de France: Pedalando no Tempo! ‍♂️**
+### **Campeões do Tour de France: Pedalando no Tempo!**
 
 **O que é esse projeto?**
 
 Já imaginou dar um rolê no tempo e descobrir quem foram os maiores campeões do Tour de France? Essa aplicação te leva nessa aventura! ️
 
-Com ela, você pode:
+Com ele, você pode:
 
 * **Pesquisar:** Digite o ano que quiser e descubra o campeão, o país, a distância percorrida e o tempo que ele levou para cruzar a linha de chegada.
 * **Explorar:** Navegue pelos resultados e relembre momentos históricos do ciclismo.
