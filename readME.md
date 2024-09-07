@@ -35,6 +35,8 @@ Se você é um ciclista apaixonado ou um desenvolvedor que quer dar uma pedalada
 
 Se você quiser adicionar mais dados ou melhorar a interface, pode editar o arquivo `dados.js`.
 
+Link Vercel: https://campeoes-mu.vercel.app/
+
 **Vamos juntos celebrar a história do ciclismo!** 
 
 
