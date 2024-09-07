@@ -3,11 +3,11 @@ function pesquisar() {
 
     let campoPesquisa = document.getElementById("campo-pesquisa").value;
 
-    if (campoPesquisa == "") {
+    if (!campoPesquisa) {
         alert("Digite um ano para pesquisa.")
         return
     }
-    
+
     if (campoPesquisa >= 1903 && campoPesquisa <= 2024) {
         let resultados = "";
 
@@ -32,4 +32,3 @@ function pesquisar() {
         alert("Não há provas registradas para o ano informado.");
     }
 }
-
