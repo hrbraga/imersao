@@ -152,6 +152,7 @@ footer p{
     body{
         background-size: auto auto;
         text-align: center;
+        background-size: cover;
     }
 
     h1{
