@@ -1,7 +1,5 @@
 html{
-    background: url(../images/tour3.avif) no-repeat;
-    background-size: cover;
-    font-size: 62.5%;
+   font-size: 62.5%;
 }
 
 /* Estiliza o corpo da página */
@@ -14,6 +12,8 @@ body {
     height: 100vh; 
     margin: 0;
     padding: 0;
+    background: url(../images/tour3.avif) no-repeat;
+    background-size: cover;
 }
 
 /* Estiliza os títulos h1 */
@@ -23,6 +23,7 @@ h1 {
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
     text-shadow: 2px 2px 4px #888; 
+    margin-bottom: 30px;
 }
 
 /* Estiliza as seções da página */
@@ -43,7 +44,6 @@ section input {
     color: var(--color-texto-principal); /* Cor do texto */
     font-size: 3rem; /* Tamanho da fonte */
     text-align: center;
-    box-sizing: border-box; /* Inclui padding e border na largura total */
 }
 
 /* Estiliza os botões dentro das seções */
@@ -146,4 +146,28 @@ footer {
 footer p{
     color: var(--color-texto-geral);
     font-size: 1.6rem;
+}
+
+@media (max-width: 600px){
+    h1{
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+    body{
+        background-size: auto auto;
+    }
+    section input {
+        width: 30rem;
+        font-size: 2rem;
+    }
+
+    section button {
+        font-size: 1.3rem;        
+    }
+
+    footer{
+        text-wrap: wrap;
+    }
+
 }
