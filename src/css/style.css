@@ -9,7 +9,9 @@ body {
     flex-direction: column; 
     align-items: center; 
     justify-content: center; 
-    height: 95vh; 
+    text-align: center;
+    width: 100vw;
+    height: 100vh; 
     background: url(../images/tour3.avif) no-repeat;
     background-size: cover;
 }
@@ -133,9 +135,9 @@ header h1 .france{
 }
 
 footer {
-    /* position: fixed;
+    position: fixed;
     bottom: 0;
-    left: 0; */
+    left: 0;
     width: 100%;
     padding: 1rem;
     text-align: center;
@@ -151,6 +153,7 @@ footer p{
         background-size: auto auto;
         text-align: center;
         margin: 0 auto;
+        max-width: 600px;
     }
 
     h1{
@@ -162,8 +165,9 @@ footer p{
         max-width: 90%;
         margin: 0 auto; 
     }
+
     section input {
-        width: 80vw;
+        width: 60vw;
         font-size: 2rem;
     }
 
@@ -172,7 +176,36 @@ footer p{
     }
 
     .resultados-pesquisa {
-        max-width: 90%;
-        margin: 0 auto;
+        width: 40rem; /* Largura máxima da caixa de resultados */ 
+    }
+
+    .item-resultado {
+        width: 25rem; 
+    }
+
+    .item-resultado .ano-prova {
+        font-size: 1.2rem; /* Tamanho da fonte */
+        color: #e01111; /* Cor do texto */
+    }
+    
+    .item-resultado .nome-ciclista {
+        font-size: 2rem; /* Tamanho da fonte */
+    }
+    
+    .item-resultado .pais-ciclista {
+        font-size: 1.5rem; /* Tamanho da fonte */
+    }
+    
+    .prova  {
+        font-size: 1.2rem;
+    }
+
+    footer{
+        position: relative;
+        margin: 30px;
+    };
+
+    footer p{
+        font-size: 1rem;
     }
 }
